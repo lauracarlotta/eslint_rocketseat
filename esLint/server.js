@@ -1,4 +1,11 @@
-const server = require("express")()
+const server = require( 'express' )()
 
-server.get('/' , function (req, res) {})
-server.listen(3000)
+server.get( "/", function ( res ) {
+	console.log( res );
+} );
+
+server.get( "/frontend", function ( req ) {
+	console.log( req );
+} );
+
+server.listen( 3000 )

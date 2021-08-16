@@ -21,7 +21,6 @@
         "import"
     ],
     "rules": {
-        "comma-dangle": "off",
         "react/jsx-filename-extension": [
             "error",
             {
@@ -38,6 +37,79 @@
             {
                 "allowTaggedTemplates": true
             }
+        ],
+		"array-bracket-spacing": [
+            "error",
+            "always"
+        ],
+        "arrow-spacing":[
+            "error",
+            "always"
+        ],
+		"block-spacing":[
+            "error",
+            "always"
+        ],
+
+		"comma": [
+            "error",
+            "always"
+        ],
+        "comma-dangle":[
+            "error",
+            "always"
+        ],
+        "comma-spacing":[
+            "error",
+            "always"
+        ],
+        "comma-style":[
+            "error",
+            "always"
+        ],
+        "computed-property-spacing":[
+            "error",
+            "always"
+        ],
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "keyword-spacing":[
+            "error",
+            "always"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "object-curly-spacing":[
+            "error",
+            "always"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+		"semi-spacing": [
+            "error",
+            "always"
+        ],
+		"semi-style": [
+            "error",
+            "always"
+        ],
+        "space-in-parens":[
+            "error",
+            "always"
+        ],
+		"space-before-blocks": [
+            "error",
+            "always"
         ]
     }
 }

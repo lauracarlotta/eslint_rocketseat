@@ -1,0 +1,1 @@
+const arrayNew = [ 'Laura', 'Well', "gi" ]
